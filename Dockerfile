@@ -1,6 +1,6 @@
 FROM sradeanu/oracle-jdk8:latest
 
-COPY . /usr/src/myapp
+COPY gs-spring-boot /usr/src/myapp
 
 WORKDIR /usr/src/myapp
 
